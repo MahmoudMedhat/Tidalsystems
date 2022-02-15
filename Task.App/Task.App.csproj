@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task.Domain\Task.Domain.csproj" />
+    <ProjectReference Include="..\Task.Infra\Task.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
